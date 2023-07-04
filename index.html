@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibration Test</title>
+</head>
+<body>
+    <button onclick="vibrate">Vibrate</button>
+</body>
+
+<script>
+    function vibrate() {
+        console.log('vibrating');
+        navigator.vibrate([100,10,200,20,300,30,100,10,200,20,300,30,100,10,200,20,300,30,100,10,200,20,300,30])
+    }
+</script>
+</html>
